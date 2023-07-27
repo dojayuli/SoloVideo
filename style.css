@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.titulo{
+    color: rgb(245, 201, 247);
+    font-family: 'Smooth Circulars', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 5px 5px #8b06c0;
+}
+p{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 2px 2px black; 
+   color: rgb(6, 34, 126);
+}
